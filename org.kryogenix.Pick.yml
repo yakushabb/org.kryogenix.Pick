@@ -1,6 +1,6 @@
 app-id: org.kryogenix.Pick
 runtime: org.gnome.Platform
-runtime-version: '42'
+runtime-version: '46'
 sdk: org.gnome.Sdk
 command: pick-colour-picker
 
@@ -28,4 +28,6 @@ modules:
       - type: git
         url: https://github.com/stuartlangridge/ColourPicker.git
         commit: e3e4c2bcec5d7285425582b92bb564c74be2cf77
+      - type: patch
+        path: fix_appdata.patch
 
