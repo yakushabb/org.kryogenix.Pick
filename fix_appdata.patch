@@ -1,0 +1,37 @@
+diff --git a/pick-colour-picker.appdata.xml b/pick-colour-picker.appdata.xml
+index 8963b22..c5a4c46 100644
+--- a/pick-colour-picker.appdata.xml
++++ b/pick-colour-picker.appdata.xml
+@@ -1,8 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!-- Copyright 2022 Stuart Langridge -->
+ <component type="desktop-application">
+-  <id>pick-colour-picker.desktop</id>
+-  <launchable type="desktop-id">pick-colour-picker.desktop</launchable>
++  <id>org.kryogenix.Pick.desktop</id>
++  <launchable type="desktop-id">org.kryogenix.Pick.desktop</launchable>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>MIT</project_license>
+   <name>Pick</name>
+@@ -23,16 +23,20 @@
+       <image>https://raw.githubusercontent.com/stuartlangridge/ColourPicker/app/pick-screenshot-16x9.png</image>
+     </screenshot>
+   </screenshots>
+-  <url type="homepage">https://kryogenix.org/code/pick/</url>
+   <update_contact>sil at kryogenix.org</update_contact>
+   <content_rating type="oars-1.1">
+     <content_attribute id="drugs-alcohol">mild</content_attribute>
+     <content_attribute id="drugs-narcotics">mild</content_attribute>
+     <content_attribute id="language-profanity">moderate</content_attribute>
+     <content_attribute id="language-humor">moderate</content_attribute>
+   </content_rating>
+   <developer_name>Stuart Langridge</developer_name>
++  <developer id="org.kryogenix">
++    <name>Stuart Langridge</name>
++  </developer>
++  <url type="homepage">https://kryogenix.org/code/pick/</url>
+   <url type="bugtracker">https://github.com/stuartlangridge/ColourPicker/issues</url>
++  <url type="vcs-browser">https://github.com/stuartlangridge/ColourPicker</url>
+   <url type="donation">https://paypal.me/stuartlangridge</url>
+   <releases>
+     <release date="2022-05-08" version="1.60.178" />
